@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Movie Poster</title>
+        <meta name="author" content="Tony Brown">
+        <meta name="description" content="Using JSON to retrive data">
+        <meta name="viewport" content="width=device-width">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+	<div id='wrapper'>
+
+		<section class="container">
+			
+			<header>
+				<h1>Poster Title</h1>
+			</header>
+
+			<section id="fetch">
+				<input type="text" placeholder="Enter a movie title" id="term" />
+				<button id="search">Find me the poster</button>
+			</section>
+		<!-- POSTER IMAGE HERE -->
+			<section id="poster"></section>
+		<!-- BEGIN FOOTER -->
+			<footer>
+				<p>
+          Learning JSON is, simple 'getJSON' function is grabbing the information from TMDb's JSON file</p>
+				<p>
+          Appending callback=? to the end of the URL, lets me make AJAX and JSON calls cross domain :)<br />
+          using JSON for the callback, but I could've used "data" or "message"
+        </p>
+			</footer>
+
+		</section>
+	</div><!-- end wrapper -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.min.js"><\/script>')</script>
+<script src="js/script.js"></script>
+</body>
+</html>
