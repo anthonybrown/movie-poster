@@ -1,6 +1,4 @@
 body {
-<<<<<<< HEAD
-=======
   padding-top: 50px;
   text-align: center;
 }
@@ -15,7 +13,6 @@ body {
 }
 
 body {
->>>>>>> master
 	background: #26838d;
 	font-size: 16px;
 }
@@ -34,22 +31,18 @@ h1, h2 {
 }
 
 header h1 {
-<<<<<<< HEAD
 	color: #ffb821;
 	text-shadow: -5px 3px 1px #f7f7f7;
 	font-size: 6em;
-=======
   color: #ffb821;
   font-size: 4em;
 	text-shadow: -5px 3px 1px #053C42;
->>>>>>> master
 	text-align: center;
 	-webkit-transform: rotate(-7deg);
 	-moz-transform: rotate(-7deg);
 	margin: 20px auto;
 }
 
-<<<<<<< HEAD
 h2.loading {
 	color: #ffb821;
 	text-shadow: -3px 2px 1px #f7f7f7;
@@ -57,8 +50,6 @@ h2.loading {
 	margin: 20px auto 0;
 }
 
-=======
->>>>>>> master
 #fetch {
 	margin: auto;
 	text-align: center;
@@ -130,18 +121,15 @@ h2.loading {
 	box-shadow: 1px 1px 20px #000000;
 }
 
-<<<<<<< HEAD
 .loading {
 	color: #f7f7f7;
 	margin: 20px auto;
 	font-size: 3em;
-=======
 h2.loading {
 	color: #ffb821;
 	text-shadow: -3px 3px 1px #03282C;
 	text-align: center;
 	margin: 20px auto 0;
->>>>>>> master
 }
 
 footer {
@@ -155,13 +143,7 @@ footer p, footer a {
 
 .twitter-follow-button {
 	position: absolute;
-<<<<<<< HEAD
 	top: 10px;
 	left: 10px;
 }
 
-=======
-	top: 10px   // this throws a warning now lol;
-	left: 10px;
-}
->>>>>>> master
