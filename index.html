@@ -1,48 +1,82 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Movie Poster</title>
-        <meta name="author" content="Tony Brown">
-        <meta name="description" content="Using JSON to retrive data">
-        <meta name="viewport" content="width=device-width">
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/libs/modernizr-2.5.3.min.js"></script>
-</head>
-<body>
-	<div id='wrapper'>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test One Page Web Web ">
+    <meta name="author" content="Tony Brown">
 
-		<section class="container">
-			
-			<header>
-				<h1>Poster Title</h1>
-			</header>
+    <title>JSON Project</title>
 
-			<section id="fetch">
-				<input type="text" placeholder="Enter a movie title" id="term" />
-				<button id="search">Find me the poster</button>
-			</section>
-		<!-- POSTER IMAGE HERE -->
-			<section id="poster"></section>
-		<!-- BEGIN FOOTER -->
-			<footer>
-				<p>
-          Learning JSON is, simple 'getJSON' function is grabbing the information from TMDb's JSON file</p>
-				<p>
-          Appending callback=? to the end of the URL, lets me make AJAX and JSON calls cross domain :)<br />
-          using JSON for the callback, but I could've used "data" or "message"
-        </p>
-			</footer>
+    <!-- Bootstrap core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
 
-		</section>
-	</div><!-- end wrapper -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.min.js"><\/script>')</script>
-<script src="js/script.js"></script>
-</body>
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://anthonybrown.github.io/">Tony Brown - JSON project demo</a>
+        </div>
+        <div class="collapse navbar-collapse">
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="example-div">
+        <header>
+          <h1>Front Row</h1>
+        </header>
+
+        <section id="fetch">
+          <form name="fetch">
+            <input type="text" placeholder="Enter a movie title" id="term" value="Gravity" />
+            <input type="submit" id="search" value="Find me a poster" />
+          </form>
+        </section>
+
+        <section id="poster">
+
+        </section>
+        <footer>
+          <p>Created by Tony Brown</a></p>
+        </footer>
+
+      </div>
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>
+
