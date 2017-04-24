@@ -9,7 +9,7 @@ $(function(){
 	});
   // cache some shit
 	var api_key = "1b3db3672d28f049a0e3f0237eeae403";
-	var baseimg = "http://image.tmdb.org/";
+	var baseimg = "http://image.tmdb.org/t/p";
 
 	//function definition
 	var getPoster = function(e){
